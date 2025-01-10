@@ -7521,7 +7521,7 @@ a_V(){var s=0,r=A.I(t.H),q,p
 var $async$a_V=A.J(function(a,b){if(a===1)return A.F(b,r)
 while(true)switch(s){case 0:p=new A.a_U()
 s=2
-return A.D($.avD().Ar(0,".env.production"),$async$a_V)
+return A.D($.avD().Ar(0,"dotenv.production"),$async$a_V)
 case 2:q=$.avD().gV3().h(0,"SUPABASE_URL")
 p.a=q==null?"":q
 q=$.avD().gV3().h(0,"SUPABASE_ANON_KEY")
